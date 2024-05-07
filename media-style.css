@@ -1,0 +1,97 @@
+
+
+@media (max-width: 1000px) {
+
+    .header {
+        flex-direction: column;
+        margin-bottom: 16px;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 700px ) {
+    .info-btn-info-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .upper-info-div-right {
+        gap: 0;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .input {
+        padding: 4px;
+        font-size: 16px;
+        width: 80%;
+    }
+    .btn {
+        padding: 4px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 470px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+
+    .upper-info-div-left {
+        padding: 0;
+        
+    }
+
+    .upper-info-div {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .img img {
+        width: 100px;
+        height: 100px;
+        margin-top: 8px;
+    }
+
+    .name h1 {
+        font-size: 24px;
+    }
+
+    .info-btn-info-box {
+        flex-direction: row;
+    }
+
+    .upper-info-div-left {
+        width: 100%;
+        gap: 0;
+    }
+
+    .img {
+        height: 75%;
+    }
+
+    .upper-info-div-right {
+        padding: 0;  
+        gap: 0;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .headline-img {
+        width: 250px;
+    }
+
+    .evolution-stage img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .upper-info-div-left {
+        padding: 0;
+    }
+}
