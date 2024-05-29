@@ -27,6 +27,13 @@ body {
   align-items: flex-start;
 }
 
+.loading-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #rotating-image {
   animation: rotate 3s infinite linear;
   width: 50px;
