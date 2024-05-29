@@ -14,22 +14,26 @@
 <body onload="init()">
     <header>
         <div class="max-width header">
-            <div class="created"><img class="headline-img" src="./img/Pokédex_logo.png" alt="pokedex"><div>Created by Jens Gartsch</div></div>
-            
-            <div id="loading-container">
-                <div><img id="rotating-image" src="./img/card-bg-red-white.png" alt="loading-pokeball"></div>
-                <div>Pokedex lädt...Bitte warte!!!</div>
+            <div class="created"><img class="headline-img" src="./img/Pokédex_logo.png" alt="pokedex">
+                <div>Created by Jens Gartsch</div>
+            </div>
+
+            <div id="loading-container" class="loading-container">
+                <div><img id="rotating-image" src="./img/card-bg-red-white.png" alt="loading-pokeball">
+                    <div>Pokedex lädt...Bitte warte!!!</div>
+                </div>
             </div>
             <div class="input-und-button"><input onkeyup="searchForPokemon()" class="input" id="search-input"
-                placeholder="Gib ein Pokemon ein..." type="text"><button onclick="searchForPokemon()"
-                class="btn">Suchen</button></div>
-            </div>
-        </header>
-        <div id="info-box" class="info-box d-none"></div>
+                    placeholder="Gib ein Pokemon ein..." type="text"><button onclick="searchForPokemon()"
+                    class="btn">Suchen</button></div>
+        </div>
+    </header>
+    <div id="info-box" class="info-box d-none"></div>
     <div id="pokedex">
 
     </div>
-    <div id="load-more-btn" class="load-more-button-div"><button onclick="loadMorePokemon()" class="load-more">load more</button></div>
+    <div id="load-more-btn" class="load-more-button-div"><button onclick="loadMorePokemon()" class="load-more">load
+            more</button></div>
     <script src="./script.js"></script>
     <script src="./chart.js"></script>
     <script src="./generateHTML.js"></script>
